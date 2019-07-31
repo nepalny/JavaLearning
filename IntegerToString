@@ -1,0 +1,15 @@
+public class IntToString {
+	public static void main(String[] args) {
+		//Integer to String
+		Integer myInt=100;//declaring an Integer object
+		String myString=myInt.toString();
+		System.out.println(myString);
+		
+		System.out.println(myString+100);
+		//String to Integer
+		String st="123";
+		int myInt1=Integer.valueOf(st);
+		System.out.println(myInt1+111);
+		}
+
+}
